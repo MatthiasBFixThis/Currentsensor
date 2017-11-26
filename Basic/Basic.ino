@@ -16,8 +16,8 @@ Created on: 11/10/2017
 #include <EspDash.h>
 #define FEATURE_ADC_VCC true // Enable FEATURE_ADC_VCC to measure supply voltage using the analog pin
 
-const char* ssid = "TheBraemz2.4";
-const char* password = "am266098@SKYNET";
+const char* ssid = "";
+const char* password = "";
 const int currentsense = analogRead(A0);
 
 int voltage = 5;
